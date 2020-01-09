@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('Fluffy build') {
       steps {
-        echo 'Placeholder'
         sh 'echo Another Placeholder'
       }
     }
